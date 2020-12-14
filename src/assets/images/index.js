@@ -1,5 +1,4 @@
-import Logo from './logo.png'
-import SplashBackground from './SplashBackground.png'
+import SplashBackground from './Splash.png'
 import ImageHeader from './header.png'
 
-export { Logo, SplashBackground, ImageHeader }
+export { SplashBackground, ImageHeader }

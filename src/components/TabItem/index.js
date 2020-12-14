@@ -7,9 +7,9 @@ const TabItem = ({isFocused, onPress, onLongPress, label }) => {
   const Icon = () => {
       if(label === "Home") return isFocused ? <IconHomeActive/> : <IconHome />
 
-      if(label === "Pesanan") return isFocused ? <IconPesananActive/> : <IconPesanan />
+      if(label === "Company List") return isFocused ? <IconPesananActive/> : <IconPesanan />
 
-      if(label === "Akun") return isFocused ? <IconAkunActive/> : <IconAkun />
+      if(label === "Account") return isFocused ? <IconAkunActive/> : <IconAkun />
 
       return <IconHome />
   }

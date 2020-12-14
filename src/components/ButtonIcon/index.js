@@ -14,21 +14,21 @@ import {WARNA_SEKUNDER} from '../../utils/constant';
 
 const ButtonIcon = ({title, type}) => {
   const Icon = () => {
-    if (title === 'Add Saldo') return <IconAddSaldo />;
+    //if (title === 'Add Saldo') return <IconAddSaldo />;
 
-    if (title === 'Get Point') return <IconGetPoint />;
+    //if (title === 'Get Point') return <IconGetPoint />;
 
-    if (title === 'Kiloan') return <IconKiloan />;
+    if (title === 'Asterisk') return <IconKiloan />;
 
-    if (title === 'Satuan') return <IconSatuan />;
+    if (title === 'Tesla') return <IconSatuan />;
 
-    if (title === 'VIP') return <IconVIP />;
+    if (title === 'Gravitation') return <IconVIP />;
 
-    if (title === 'Karpet') return <IconKarpet />;
+    if (title === 'Event Music') return <IconKarpet />;
 
-    if (title === 'Setrika Saja') return <IconSetrika />;
+    if (title === 'Event Comedy') return <IconSetrika />;
 
-    if (title === 'Ekspress') return <IconEkspress />;
+    if (title === 'Event seni') return <IconEkspress />;
 
     return <IconAddSaldo />;
   };

@@ -12,7 +12,6 @@ const Splash = ({ navigation }) => {
 
     return (
        <ImageBackground source={SplashBackground} style={styles.background}>
-           <Image source={Logo} style={styles.logo} />
        </ImageBackground>
     )
 }

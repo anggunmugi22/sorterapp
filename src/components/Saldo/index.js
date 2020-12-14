@@ -17,11 +17,6 @@ const Saldo = () => {
           <Text style={styles.valuePoint}>100 points</Text>
         </View>
       </View>
-      <View style={styles.buttonAksi}>
-        <ButtonIcon title="Add Saldo" />
-        <Gap width={10} />
-        <ButtonIcon title="Get Point" />
-      </View>
     </View>
   );
 };
